@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML and CSS Guide</title>
+    <title>The BLOG website</title>
+    <link rel="icon" type="image/png" href="../public/icon.png">
     <style>
         body::-webkit-scrollbar {
             display: none;
@@ -41,12 +42,11 @@
 
 <body class="bg-dark-subtle"
     style="background-image: url('../public/bg.png'); background-size: cover; background-position: center; background-attachment: fixed; margin: 0; padding: 0;">
-
     <nav class="navbar navbar-dark bg-black">
         <div class="container-fluid d-flex flex-column align-items-start">
 
             <div class="d-flex w-100 justify-content-between align-items-center mb-2">
-                <a class="navbar-brand text-light fs-1" href="../index.html">
+                <a class="navbar-brand text-light fs-1" href="../index.php">
                     <img src="../public/logo.png" alt="The BLOG website" style="width: 300px; height: auto;">
                 </a>
 
@@ -61,16 +61,16 @@
             <div class="w-100">
                 <ul class="navbar-nav nav nav-pills nav-fill flex-row w-100 justify-content-between">
                     <li class="nav-item text-center flex-fill">
-                        <a class="nav-link text-light" href="../index.html">Home</a>
+                        <a class="nav-link text-light" href="../index.php">Home</a>
                     </li>
                     <li class="nav-item text-center flex-fill">
-                        <a class="nav-link text-light" href="../pages/about.html">About Us</a>
+                        <a class="nav-link text-light" href="../pages/about.php">About Us</a>
                     </li>
                     <li class="nav-item text-center flex-fill">
-                        <a class="nav-link text-light" href="../pages/post.html">Post</a>
+                        <a class="nav-link text-light" href="../pages/post.php">Post</a>
                     </li>
                     <li class="nav-item text-center flex-fill">
-                        <a class="nav-link text-light" href="../pages/contactUs.html">Contact Us</a>
+                        <a class="nav-link text-light" href="../pages/contactUs.php">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -82,19 +82,28 @@
         <div class="row justify-content-center">
             <div class="col-md-9">
                 <div class="page-header mt-5">
-                    <h2 class="text-center text-light">HTML and CSS</h2>
+                    <h2 class="text-center text-light">Learn PHP</h2>
                 </div>
                 <div class="container col-md-12">
                     <p class="lead m-col text-light">
-                        HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are the foundational
-                        technologies for building web pages. HTML structures the content—like headings, paragraphs, and
-                        images—while CSS controls the layout and visual styling, including olors, fonts, and
-                        responsiveness. Together, they enable developers to create visually appealing and accessible
-                        websites. HTML5 introduced powerful features such as audio, video, and semantic elements, while
-                        modern CSS supports animations, grid/flexbox layouts, and dark mode themes. Learning HTML and
-                        CSS is the first step for anyone entering the world of web development. Whether you're crafting
-                        a personal portfolio or designing a professional site, these technologies provide the essential
-                        tools to bring your ideas to life on the web.
+                        PHP (Hypertext Preprocessor) is a widely-used open-source scripting language designed primarily
+                        for web development. It runs on the server side and is especially suited for creating dynamic
+                        and interactive websites. PHP integrates easily with databases like MySQL and supports various
+                        frameworks such as Laravel and CodeIgniter, which simplify the development process. Its syntax
+                        is simple for beginners but powerful enough for professionals to build robust applications. PHP
+                        powers major content management systems like WordPress, Joomla, and Drupal. Despite evolving
+                        competition, PHP continues to thrive due to its versatility, ease of deployment, and strong
+                        community support. From small blogs to complex enterprise applications, PHP remains a reliable
+                        solution for server-side
+                        PHP (Hypertext Preprocessor) is a widely-used open-source scripting language designed primarily
+                        for web development. It runs on the server side and is especially suited for creating dynamic
+                        and interactive websites. PHP integrates easily with databases like MySQL and supports various
+                        frameworks such as Laravel and CodeIgniter, which simplify the development process. Its syntax
+                        is simple for beginners but powerful enough for professionals to build robust applications. PHP
+                        powers major content management systems like WordPress, Joomla, and Drupal. Despite evolving
+                        competition, PHP continues to thrive due to its versatility, ease of deployment, and strong
+                        community support. From small blogs to complex enterprise applications, PHP remains a reliable
+                        solution for server-side
                     </p>
                 </div>
 
@@ -106,7 +115,7 @@
                                     <button class="accordion-button bg-dark text-light" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseContinueLearning"
                                         aria-expanded="false" aria-controls="collapseContinueLearning">
-                                        Continue Learning
+                                        Continue Learning PHP
                                     </button>
                                 </h2>
                                 <div id="collapseContinueLearning" class="accordion-collapse collapse"
@@ -115,37 +124,38 @@
                                     <div class="accordion-body">
                                         <ul class="list-unstyled text-light mt-3">
                                             <li>
-                                                <a href="https://www.w3schools.com/html/" target="_blank"
+                                                <a href="https://www.php.net/manual/en/tutorial.php" target="_blank"
                                                     class="text-light">
-                                                    HTML Basics
-                                            </li>
-                                            <li>
-                                                <a href="https://www.freecodecamp.org/news/learn-css-in-11-minutes/"
-                                                    target="_blank" class="text-light">
-                                                    Learn CSS Quickly
+                                                    PHP Manual - Official Documentation
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                                                    target="_blank" class="text-light">
-                                                    HTML Documentation
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://css-tricks.com/" target="_blank" class="text-light">
-                                                    CSS Tricks
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.codecademy.com/learn/learn-html" target="_blank"
+                                                <a href="https://www.w3schools.com/php/" target="_blank"
                                                     class="text-light">
-                                                    HTML & CSS Course
+                                                    Learn PHP - W3Schools
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.freecodecamp.org/learn/responsive-web-design/"
+                                                <a href="https://www.codecademy.com/learn/learn-php" target="_blank"
+                                                    class="text-light">
+                                                    PHP Course - Codecademy
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.freecodecamp.org/news/php-tutorial-for-beginners/"
                                                     target="_blank" class="text-light">
-                                                    Responsive Web Design
+                                                    PHP Beginner's Guide - freeCodeCamp
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.learn-php.org/" target="_blank" class="text-light">
+                                                    Learn PHP - Learn-PHP.org
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.udemy.com/course/php-for-beginners-learn-php-5-and-7/"
+                                                    target="_blank" class="text-light">
+                                                    PHP for Beginners - Udemy
                                                 </a>
                                             </li>
                                         </ul>
@@ -170,27 +180,26 @@
                                     <div class="accordion-body">
                                         <ul class="list-unstyled text-light mt-3">
                                             <li>
-                                                <a href="https://www.w3schools.com/html/" target="_blank"
+                                                <a href="https://www.php.net/manual/en/tutorial.php" target="_blank"
                                                     class="text-light">
-                                                    HTML Basics
+                                                    PHP Official Tutorial
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.freecodecamp.org/news/learn-css-in-11-minutes/"
-                                                    target="_blank" class="text-light">
-                                                    Learn CSS Quickly
+                                                <a href="https://www.w3schools.com/php/" target="_blank"
+                                                    class="text-light">
+                                                    PHP Basics - W3Schools
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-                                                    target="_blank" class="text-light">
-                                                    JavaScript Guide
+                                                <a href="https://www.codewars.com/" target="_blank" class="text-light">
+                                                    PHP Practice - Codewars
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.codecademy.com/learn/introduction-to-python"
-                                                    target="_blank" class="text-light">
-                                                    Intro to Python
+                                                <a href="https://stackoverflow.com/questions/tagged/php" target="_blank"
+                                                    class="text-light">
+                                                    PHP Q&A - Stack Overflow
                                                 </a>
                                             </li>
                                         </ul>

@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The BLOG website</title>
+    <link rel="icon" type="image/png" href="public/icon.png">
     <style>
         body::-webkit-scrollbar {
             display: none;
@@ -46,7 +47,7 @@
         <div class="container-fluid d-flex flex-column align-items-start">
 
             <div class="d-flex w-100 justify-content-between align-items-center mb-2">
-                <a class="navbar-brand text-light fs-1" href="index.html">
+                <a class="navbar-brand text-light fs-1" href="index.php">
                     <img src="public/logo.png" alt="The BLOG website" style="width: 300px; height: auto;">
                 </a>
 
@@ -61,16 +62,16 @@
             <div class="w-100">
                 <ul class="navbar-nav nav nav-pills nav-fill flex-row w-100 justify-content-between">
                     <li class="nav-item text-center flex-fill">
-                        <a class="nav-link active disabled text-light" href="index.html">Home</a>
+                        <a class="nav-link active disabled text-light" href="index.php">Home</a>
                     </li>
                     <li class="nav-item text-center flex-fill">
-                        <a class="nav-link text-light" href="pages/about.html">About Us</a>
+                        <a class="nav-link text-light" href="pages/about.php">About Us</a>
                     </li>
                     <li class="nav-item text-center flex-fill">
-                        <a class="nav-link text-light" href="pages/post.html">Post</a>
+                        <a class="nav-link text-light" href="pages/post.php">Post</a>
                     </li>
                     <li class="nav-item text-center flex-fill">
-                        <a class="nav-link text-light" href="pages/contactUs.html">Contact Us</a>
+                        <a class="nav-link text-light" href="pages/contactUs.php">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -92,7 +93,7 @@
         <div class="row g-4 justify-content-center">
 
             <div class="col-md-6">
-                <button onclick="location.href='contents/java.html'"
+                <button onclick="location.href='contents/java.php'"
                     class="w-100 bg-dark text-light p-3 rounded text-center shadow border-0 post-btn h-100"
                     style="height: 300px;">
                     <div class="d-flex flex-column justify-content-between h-100">
@@ -108,7 +109,7 @@
             </div>
 
             <div class="col-md-6">
-                <button onclick="location.href='contents/php.html'"
+                <button onclick="location.href='contents/php.php'"
                     class="w-100 bg-dark text-light p-3 rounded text-center shadow border-0 post-btn h-100"
                     style="height: 300px;">
                     <div class="d-flex flex-column justify-content-between h-100">
@@ -124,7 +125,7 @@
             </div>
 
             <div class="col-md-6">
-                <button onclick="location.href='contents/sql.html'"
+                <button onclick="location.href='contents/sql.php'"
                     class="w-100 bg-dark text-light p-3 rounded text-center shadow border-0 post-btn h-100"
                     style="height: 300px;">
                     <div class="d-flex flex-column justify-content-between h-100">
@@ -140,7 +141,7 @@
             </div>
 
             <div class="col-md-6">
-                <button onclick="location.href='contents/css-html.html'"
+                <button onclick="location.href='contents/css-html.php'"
                     class="w-100 bg-dark text-light p-3 rounded text-center shadow border-0 post-btn h-100"
                     style="height: 300px;">
                     <div class="d-flex flex-column justify-content-between h-100">
@@ -164,7 +165,7 @@
 
     <footer class="container text-center text-white py-4">
         <ul class="nav justify-content-center">
-            <li class="nav-item"><a class="nav-link text-white" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="../index.php">Home</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#">Technology</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#">Health</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="#">Science</a></li>
